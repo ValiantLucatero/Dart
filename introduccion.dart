@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void main() {
-	var dato = 3.14;
+  var dato = 3.14;
   const datos_2 = 0.16; //valor conocido al momento de compilar
   final fecha = new DateTime.now(); //valor no conocido al momento de compilar
   int x = 20;
@@ -17,10 +17,10 @@ void main() {
   + - * / %
   */
 
-  //
-
-  print(dato);
+  print(dato * y);
   print(sin(45 * pi / 100));
-  print(sqrt(2));
-  print(3.14159.round());
+  print(sqrt(x));
+  print(dato.round());
+  print(datos_2);
+  print(fecha);
 }
